@@ -59,6 +59,40 @@ a {
     color: white;
 }
 
+@media (max-width: 680px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 70px;
+    align-items: center;
+    padding: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.text1 h1 {
+    text-align: center;
+}
+
+.text1 button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+}
+
 .text1 {
     max-width: 460px;
 }
@@ -123,11 +157,12 @@ a {
 
 .card p {
     text-align: center;
+    margin-top: 8px;
 }
 
 .square {
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
     border: 3px solid #3882F6;
     border-radius: 9px;
 }
@@ -174,7 +209,25 @@ a {
     background-color: #3882F6;
     border-radius: 10px;
     color: white;
-    padding: 30px 90px;
+    padding: 25px 75px;
+}
+
+@media (max-width:680px) {
+    .div4 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 10px 22px;
+        text-align: center;
+    }
+
+    .div4 h3 {
+        font-size: 22px;
+    }
+
+    .div4 p {
+        margin-top: 5px;
+    }
 }
 
 .button4 button {
